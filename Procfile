@@ -1,1 +1,1 @@
-web: echo "hello world"
+web: npm run start-prod
