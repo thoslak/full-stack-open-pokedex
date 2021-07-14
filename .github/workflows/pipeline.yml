@@ -33,3 +33,4 @@ jobs:
           heroku_app_name: thoslak-pokedex
           heroku_email: thoslak_95@hotmail.com
           healthcheck: https://thoslak-pokedex.herokuapp.com/health
+          checkstring: ok
