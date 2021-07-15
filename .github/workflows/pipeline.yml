@@ -53,5 +53,5 @@ jobs:
           status: ${{ job.status }}
           fields: repo, message
         env:
-          SLACK_WEBHOOK_URL: ${{ https://hooks.slack.com/services/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 }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         if: always()
