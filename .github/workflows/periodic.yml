@@ -7,7 +7,7 @@ on:
     - cron: "* * * * *"
 
 jobs:
-  simple healthcheck:
+  simple_healthcheck:
     runs-on: ubuntu-18.04
     steps:
       - name: Check the deployed service URL
